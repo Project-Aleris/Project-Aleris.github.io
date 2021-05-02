@@ -4,6 +4,26 @@ body {
   margin:0;
 }
 
+.section--hero .section__showcase {
+    position: relative;
+}
+
+.section--hero .section__showcase img.bg {
+    display: block;
+    margin: 0 auto;
+    max-height: 67vh;
+}
+
+.section--hero .section__showcase img:not(.bg) {
+    height: 78%;
+    left: 50%;
+    position: absolute;
+    top: 2%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+}
+
+
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight:300;
