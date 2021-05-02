@@ -4,7 +4,7 @@ body {
   margin:0;
 }
 
-button {
+.button {
   background:    #00acc1;
 background:    linear-gradient(#00acc1, #9900ff);
 border-radius: 11px;
